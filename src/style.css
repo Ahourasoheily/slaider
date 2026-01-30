@@ -13,7 +13,9 @@
   background-color: white;
   width: 500px;
   height: 100vh;
+
 }
+
 .said1{
   display: flex;
   justify-content: space-between;
@@ -23,12 +25,31 @@
 .menu{
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
-  gap: 20px;
-  margin: 1.5rem;
   list-style-type: none;
-  color: gray;
+  cursor: pointer;
 }
 body{
   background-color: #ebebeb;
+}
+.menu a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  color: grey;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  
+}
+
+.menu a:hover {
+  background: #f8a5a5;
+  padding-left: 1.7rem;
+}
+.imag2{
+  position: fixed;
+  left: 28rem;
+  top: 2rem;
+  border: none;
+  background-color: white;
+
 }
